@@ -1,5 +1,5 @@
 <?php
-
+ 
 // データベースに接続
 function get_db_connect(){
     // あとで定数constに変える
