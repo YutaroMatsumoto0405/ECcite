@@ -1,0 +1,20 @@
+.day {
+    text-align: center;
+}
+.border {
+   border-bottom: ridge 4px;  
+}
+h1 {
+    text-align: center;
+}
+.all {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+} 
+img{
+    width: 200px;   
+}
+.cartIn {
+    padding-top: 40px;
+}
