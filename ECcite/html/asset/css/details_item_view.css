@@ -1,0 +1,12 @@
+article {
+    margin: 0 auto;
+}
+img{
+    width: 400px;   
+}
+.product {
+    padding: 20px 0;
+}
+.color {
+    color: red;
+}

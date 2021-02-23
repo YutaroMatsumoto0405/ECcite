@@ -1,0 +1,41 @@
+nav {
+    width: 210px;
+    padding-right: 20px;
+}
+nav ul li {
+    border-bottom: dotted 1px #DDDDDD;
+    margin: 15px 0;
+    font-size: 18px;
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+}
+.frame1 {
+    padding-bottom: 60px;
+}
+h2 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.search {
+    height: 23px;
+    border-radius: 10px;
+}
+article {
+    margin: 0 auto;
+}
+.item img {
+    width: 150px;
+}
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.item{
+    width: 180px;
+    float: left;
+    text-align: center; 
+}

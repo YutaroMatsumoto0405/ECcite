@@ -1,0 +1,18 @@
+.all {   
+    justify-content: space-around;
+    padding: 40px 0;
+}    
+img{
+    width: 200px;   
+}
+.amount {
+    margin-top: 40px;
+}
+.cost {
+    margin-top: 40px;
+}
+.total {
+    width: 400px;
+    float: right;
+    padding-top: 30px;
+}  

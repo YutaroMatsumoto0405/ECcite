@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    min-width: 960px;   
+}
+.home {
+    /*background-image: url(home_icon.png);*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 150px;
+    display: block;
+    /*padding-left: 25px;*/
+}
+.register {
+    /*background-image: url(register_icon.png);*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 185px;
+    display: block;
+    padding-left: 25px;
+}
+.login {
+    /*background-image: url(rogin_icon.png);*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 180px;
+    display: block;
+    padding-left: 25px;
+}
+.cart {
+    background-image: url(cart_icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 185px;
+    display: block;
+    padding-left: 25px;
+}
+.bgcolor {
+    background: -webkit-repeating-linear-gradient(-45deg,#EEEEEE 0,#EEEEEE 2px,#fff 2px,#fff 20px);
+    background: -o-repeating-linear-gradient(-45deg,#EEEEEE 0,#EEEEEE 2px,#fff 2px,#fff 20px);
+    background: repeating-linear-gradient(-45deg,#EEEEEE 0,#EEEEEE 2px,#fff 2px,#fff 20px);
+}
+main {
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 30px;   
+}
+
+.masc {
+    width: 730px;
+}
+.item img {
+    width: 150px;
+}
