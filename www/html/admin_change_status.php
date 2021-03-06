@@ -1,11 +1,11 @@
 <?php
-require_once '../conf/const.php';
-require_once MODEL_PATH . 'functions.php';
-require_once MODEL_PATH . 'user.php';
-require_once MODEL_PATH . 'item.php';
+require_once './conf/const.php';
+require_once  './model/functions.php';
+require_once  './model/user.php';
+require_once  './model/item.php';
 
 // セッションスタート
-session_start();
+session_start(); 
 // ログインしていなかったら、login画面へリダイレクト
 if(is_logined() === false){
     redirect_to(LOGIN_URL);
@@ -25,10 +25,10 @@ $token = get_post('token');
 // ステータス変更の処理、item.phpで定義
 if(is_valid_csrf_token($token)) { 
     if($changes_to === 'open'){
-        update_item_status($db, $item_id, ITEM_STATUS_OPEN);
+        update_item_status($db,ITEM_STATUS_OPEN,$item_id);
         set_message('ステータスを変更しました。');
     }else if($changes_to === 'close'){
-        update_item_status($db, $item_id, ITEM_STATUS_CLOSE);
+        update_item_status($db,ITEM_STATUS_CLOSE,$item_id);
         set_message('ステータスを変更しました。');
     }else {
         set_error('不正なリクエストです。');
@@ -36,6 +36,5 @@ if(is_valid_csrf_token($token)) {
 } else { 
     set_error('不正な操作が行われました'); 
 } 
-
 
 redirect_to(ADMIN_URL);

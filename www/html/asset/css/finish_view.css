@@ -2,21 +2,12 @@
     text-align: center;
 }
 .all {
-    display: flex;
-    justify-content: space-around;
-    padding: 40px 0;
+    text-align: center;
 }    
-img{
-    width: 200px;   
-}
 .amount {
     margin-top: 40px;
 }
-.cost {
-    margin-top: 40px;
-}
 .total {
-    width: 400px;
-    float: right;
-    padding-top: 30px;
+    font-size: 25px;
+    text-align: center;
 }    

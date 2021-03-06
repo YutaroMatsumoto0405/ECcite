@@ -8,13 +8,19 @@ h1 {
     margin-top: 0;
     border-bottom: ridge 2px;
 }
-.roginInfo {
+/* .bgcolor {
+    background: -webkit-repeating-linear-gradient(-45deg,#EEEEEE 0,#EEEEEE 2px,#fff 2px,#fff 20px);
+    background: -o-repeating-linear-gradient(-45deg,#EEEEEE 0,#EEEEEE 2px,#fff 2px,#fff 20px);
+    background: repeating-linear-gradient(-45deg,#EEEEEE 0,#EEEEEE 2px,#fff 2px,#fff 20px);
+} */
+ .roginInfo {
     width: 710px;
     margin: 0 auto;
 }
 .roginInfo p {
     padding: 30px 0;
 }
+
 .roginInfo a {
     text-decoration: none;
     color: #008BBB;
@@ -23,27 +29,7 @@ h1 {
 .roginInfo a:hover {
     color: #FF69A3;
 }
-.userBorder {
-    border: ridge 4px;
-}
-.user {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #EEEEEE;   
-}
-.user2 {
-    width: 350px;
-    text-align: center;
-}
-.user3 {
-    width: 350px;
-    line-height: 64px;   
-}
-.Button {
-   display: flex;
-   justify-content: space-around;
-   padding: 40px 0;  
-}
+
 .button {
     border-radius: 10%;
     font-size: 16px;
@@ -55,3 +41,17 @@ h1 {
     box-shadow    : none;     
     opacity       : 1;
 }
+p {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+.user3 {
+    text-align: center;
+}
+.Button{
+    text-align:center;
+    padding-top: 30px;
+}
+

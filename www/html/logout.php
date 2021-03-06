@@ -1,6 +1,6 @@
 <?php
-require_once '../conf/const.php';
-require_once MODEL_PATH . 'functions.php';
+require_once './conf/const.php';
+require_once  './model/functions.php';
 
 session_start();
 // セッション関数を空っぽに

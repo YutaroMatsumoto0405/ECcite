@@ -7,7 +7,7 @@ services:
   php:
     build: ./php # phpディレクトリのDockerfileに基づいてコンテナ作成
     volumes:
-      - ../www:/var/www # ホストのwwwディレクトリをphpコンテナの/var/www（ドキュメントルートのあるディレクトリ）と同期。
+      - ../www/html:/var/www/html # ホストのwwwディレクトリをphpコンテナの　/var/www（ドキュメントルートのあるディレクトリ、外からアクセスできる）と同期。
     ports:
       - 8080:80 # ホストの8080番ポートをコンテナの80番ポートにフォワード（転送）
     depends_on:

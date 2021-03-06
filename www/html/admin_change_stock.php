@@ -1,8 +1,8 @@
 <?php
-require_once '../conf/const.php';
-require_once MODEL_PATH . 'functions.php';
-require_once MODEL_PATH . 'user.php';
-require_once MODEL_PATH . 'item.php';
+require_once './conf/const.php';
+require_once  './model/functions.php';
+require_once  './model/user.php';
+require_once  './model/item.php';
 
 session_start();
 // ログインしていなかったら、login画面へリダイレクト
@@ -23,7 +23,7 @@ $token = get_post('token');
 
 // 在庫数変更の処理、item.phpで定義
 if(is_valid_csrf_token($token)){ 
-    if(update_item_stock($db, $item_id, $stock)){
+    if(update_item_stock($db,$stock,$item_id)){
         set_message('在庫数を変更しました。');
     } else {
         set_error('在庫数の変更に失敗しました。');

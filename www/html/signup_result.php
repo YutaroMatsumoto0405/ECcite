@@ -1,7 +1,7 @@
 <?php
-require_once '../conf/const.php';
-require_once MODEL_PATH . 'functions.php';
-require_once MODEL_PATH . 'user.php';
+require_once './conf/const.php';
+require_once  './model/functions.php';
+require_once  './model/user.php';
 
 session_start();
 // ログインしてたらホームにリダイレクト
