@@ -1,0 +1,31 @@
+.day {
+    text-align: center;
+}
+.border {
+   border-bottom: ridge 4px;  
+}
+h1 {
+    text-align: center;
+}
+.all {
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-around;
+    padding: 40px 0;
+} 
+/* .bgcolor {
+    background: -webkit-repeating-linear-gradient(-45deg,#EEEEEE 0,#EEEEEE 2px,#fff 2px,#fff 20px);
+    background: -o-repeating-linear-gradient(-45deg,#EEEEEE 0,#EEEEEE 2px,#fff 2px,#fff 20px);
+    background: repeating-linear-gradient(-45deg,#EEEEEE 0,#EEEEEE 2px,#fff 2px,#fff 20px);
+} */
+
+.table{
+    padding-top: 20px;
+}
+td {
+    padding: 20px 20px 0 0;
+    
+}
+th {
+    padding-right: 40px;
+}

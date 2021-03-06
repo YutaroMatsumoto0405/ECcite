@@ -1,0 +1,21 @@
+.add_item_form{
+    border: solid 1px #ffffff;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.close_item {
+    background-color: #dddddd;
+}
+
+.operation {
+    margin-bottom: 20px;
+}
+
+input[type=number]{
+    width: 10em;
+}

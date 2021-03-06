@@ -1,0 +1,22 @@
+.border {
+    border-bottom: ridge 4px;  
+}
+h1 {
+    text-align: center;
+}
+.all {
+    justify-content: space-around;
+    text-align: center;
+    padding: 40px 0;
+} 
+/* .bgcolor {
+    background: -webkit-repeating-linear-gradient(-45deg,#EEEEEE 0,#EEEEEE 2px,#fff 2px,#fff 20px);
+    background: -o-repeating-linear-gradient(-45deg,#EEEEEE 0,#EEEEEE 2px,#fff 2px,#fff 20px);
+    background: repeating-linear-gradient(-45deg,#EEEEEE 0,#EEEEEE 2px,#fff 2px,#fff 20px);
+} */
+/* img{
+    width: 200px;    
+} */
+.cartIn {
+    padding-top: 40px;
+}

@@ -1,0 +1,26 @@
+.all {   
+justify-content: space-around;
+padding: 20px 0;
+text-align: center;
+} 
+.amount {
+margin-top: 40px;
+}
+
+.total {
+font-size: 25px;
+}  
+h1 {
+text-align: center;
+}
+.border {
+border-bottom: ridge 4px;  
+}
+.botton{
+    padding: 20px 0;
+}
+/* .bgcolor {
+    background: -webkit-repeating-linear-gradient(-45deg,#EEEEEE 0,#EEEEEE 2px,#fff 2px,#fff 20px);
+    background: -o-repeating-linear-gradient(-45deg,#EEEEEE 0,#EEEEEE 2px,#fff 2px,#fff 20px);
+    background: repeating-linear-gradient(-45deg,#EEEEEE 0,#EEEEEE 2px,#fff 2px,#fff 20px);
+} */

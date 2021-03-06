@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    min-width: 960px;
+} 
+h1 {
+    text-align: center;
+    padding: 30px;
+    margin-top: 0;
+    border-bottom: ridge 2px;
+}
+/* .bgcolor {
+    background: -webkit-repeating-linear-gradient(-45deg,#EEEEEE 0,#EEEEEE 2px,#fff 2px,#fff 20px);
+    background: -o-repeating-linear-gradient(-45deg,#EEEEEE 0,#EEEEEE 2px,#fff 2px,#fff 20px);
+    background: repeating-linear-gradient(-45deg,#EEEEEE 0,#EEEEEE 2px,#fff 2px,#fff 20px);
+} */
+ .roginInfo {
+    width: 710px;
+    margin: 0 auto;
+}
+.roginInfo p {
+    padding: 30px 0;
+}
+
+.roginInfo a {
+    text-decoration: none;
+    color: #008BBB;
+    transition: 0.2s;  
+}
+.roginInfo a:hover {
+    color: #FF69A3;
+}
+
+.button {
+    border-radius: 10%;
+    font-size: 16px;
+    background-color: #DCDCDC;
+    box-shadow: 2px 2px 2px #A9A9A9;
+    transition    : 0.3s;      
+}
+.button:hover {
+    box-shadow    : none;     
+    opacity       : 1;
+}
+p {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+.user3 {
+    text-align: center;
+}
+.Button{
+    text-align:center;
+    padding-top: 30px;
+}
+

@@ -1,0 +1,14 @@
+body {
+    min-width: 960px;
+    margin: 0;
+}          
+/* .bgcolor { */
+    /* background: -webkit-repeating-linear-gradient(-45deg,#ac6363 0,#b96767 2px,rgb(97, 47, 47) 2px,#fff 20px);
+    background: -o-repeating-linear-gradient(-45deg,#9c6666 0,#EEEEEE 2px,#fff 2px,#fff 20px);
+    background: repeating-linear-gradient(-45deg,#834444 0,#EEEEEE 2px,#fff 2px,#fff 20px); */
+    
+/* } */
+main {
+    width: 840px;
+    margin: 0 auto;
+}
